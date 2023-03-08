@@ -12,10 +12,29 @@ section{
     font-size: 30px;
 }
 
+section div p{
+    font-weight: normal;
+    line-height: 28px;
+    padding-right: 65px;
+}
+
+section div h2{
+    font-size: 30px;
+}
+
+section div .icon{
+    font-size: 30px;
+}
+
 section h3{
     font-size: 30px;
 }
 
+.section-heading{
+    width: 850px;
+    height: 45px;
+    border-bottom: 3px solid black;
+}
 
 section h4{
     font-size: 25px;
@@ -49,11 +68,11 @@ section ul{
     margin-top: 100px;
 }
 
-header h1,h2{
+header h1{
     margin-left: 550px;
 }
 
-h1{
+header h1{
     padding-top: 65px;
     font-size: 75px;
 }
@@ -62,7 +81,19 @@ header h2{
     font-size: 25px;
 }
 
-#sidebar{
+/* #sidebar{
+    height: 160vh;
+    width: 380px;
+    background-color: #f0b235;
+    position: relative;
+    z-index: 1;
+    left: 100px;
+    top: -320px;
+    /* word-wrap: break-word;
+    right: 50px; 
+} */
+
+aside{
     height: 160vh;
     width: 380px;
     background-color: #f0b235;
@@ -74,18 +105,21 @@ header h2{
 
 .sidebar-content{
     padding-top: 50px;
+    padding-right: 50px;
     position: relative;
     top: 45px;
-    left: 45px;
-    
-    
+    left: 45px; 
 }
 
 .sidebar-content h3{
     font-size: 28px;
 }
 
-div img{
+.sidebar-content i{
+    margin: 0px 10px;
+}
+
+aside img{
     width: auto;
     height: 300px;
     border-radius: 55%;
@@ -93,5 +127,9 @@ div img{
     position: relative;
     top: 45px;
     left: 65px;
-    
+}
+
+aside .sidebar-heading{
+    height: 40px;
+    border-bottom: 3px solid black;
 }
